@@ -34,6 +34,7 @@ SAM requires `python>=3.8`, as well as `pytorch>=1.7` and `torchvision>=0.8`. Pl
 
 ```
 git clone git@github.com:facebookresearch/segment-anything.git
+
 cd segment-anything; pip install -e .
 ```
 
@@ -44,6 +45,7 @@ cd segment-anything; pip install -e .
 
 ```
 git clone git@github.com:yformer/EfficientSAM.git
+
 cd EfficientSAM; pip install -e .
 ```
 

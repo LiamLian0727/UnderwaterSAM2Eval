@@ -31,6 +31,8 @@ In this work, we conduct a preliminary investigation of the performance for SAM2
   
 *  When automated inference without user-specified prompt, the performance of SAM2 shows a significant degradation. Therefore, how to design a reliable object detection module as a prompt generator for SAM2 will be the focus of future research in this area.
 
+In addition, due to the scarcity of underwater video segmentation datasets, this report doesn't evaluate the performance of SAM2 on the underwater video instance segmentation task. However, based on SAM2's excellent performance on underwater 2D instance segmentation, we speculate that SAM2 can be a powerful annotation tool for underwater video instance segmentation dataset and help the development of this field.
+
 ## Citation
 If you find our repo or USIS10K dataset useful for your research, please cite us:
 ```

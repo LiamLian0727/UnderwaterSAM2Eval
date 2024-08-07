@@ -15,6 +15,8 @@ In this technical report, we use the underwater instance segmentation task as a 
 * When ground truth is used as the prompt for the SAM2, its performance improves significantly compared to SAM and [EfficientSAM](https://github.com/yformer/EfficientSAM).\
 * When using SAM2 to automatically generate instance masks, the performance of SAM2 showed significant degradation and is not comparable to state-of-the-art underwater instance segmentation algorithms.
 
+We also present some visualization results for SAM2 to show the performance of SAM2 at different prompts. It can be seen that when dealing with underwater instances with visual ambiguity phenomena (e.g., rows 2 and 6), SAM2 tends to segment out the wrong masks. When processing large objects, SAM2 sometimes generates a large amount of noise at the edges (e.g., rows 3 and 4).
+![framework_img](fig/result.png)
 
 ## Conclusion
 

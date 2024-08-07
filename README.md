@@ -49,6 +49,15 @@ cd EfficientSAM; pip install -e .
 
 </details>
 
+<details>
+<summary>Install other dependencies</summary> <br/> 
+
+```
+pip install matplotlib scipy pycocotools
+```
+
+</details>
+
 
 ##  Experimental Results
 In this technical report, we use the underwater instance segmentation task as a case study to analyze the performance of SAM2 in underwater scenarios with the UIIS dataset (ICCV'23) and the USIS10K dataset (ICML'24). We observe the following two points:

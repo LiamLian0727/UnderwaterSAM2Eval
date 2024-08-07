@@ -16,9 +16,11 @@ from tqdm import tqdm
 
 from efficient_sam import build_efficient_sam_vitt, build_efficient_sam_vits
 
+# ------------------------------ Setting ------------------------------
 ANNOTATION_PATH = r"/root/segment-anything-2/data/UIIS/UDW/annotations/val.json"
 IMAGE_PATH = r"/root/segment-anything-2/data/UIIS/UDW/val"
 scale_to_original_image_size = True
+# ------------------------------ Setting ------------------------------
 
 if __name__ == '__main__':
     matplotlib.use('Agg')

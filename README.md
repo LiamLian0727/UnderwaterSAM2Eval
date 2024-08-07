@@ -1,4 +1,4 @@
-# UnderwaterSAM2Eval
+# Evaluation of SAM2 in the Underwater Environment
 
 This repository is the implementation of "[Evaluation of Segment Anything Model 2: The Role of SAM2 in the Underwater Environment](https://arxiv.org/abs/2408.02924)".
 

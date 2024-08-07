@@ -12,6 +12,44 @@ This report aims to explore the potential of SAM2 in marine science by evaluatin
 
 It is hoped that this paper will inspire researchers to further explore the SAM model family in the underwater domain.
 
+## Installation
+
+<details>
+<summary>SAM 2</summary> <br/> 
+
+SAM 2 needs to be installed first before use. The code requires `python>=3.10`, as well as `torch>=2.3.1` and `torchvision>=0.18.1`. Please follow the instructions [here](https://pytorch.org/get-started/locally/) to install both PyTorch and TorchVision dependencies. You can install SAM 2 on a GPU machine using:
+
+```bash
+git clone https://github.com/facebookresearch/segment-anything-2.git
+
+cd segment-anything-2; pip install -e .
+```
+
+</details>
+
+<details>
+<summary>SAM</summary> <br/> 
+  
+SAM requires `python>=3.8`, as well as `pytorch>=1.7` and `torchvision>=0.8`. Please follow the instructions [here](https://pytorch.org/get-started/locally/) to install both PyTorch and TorchVision dependencies. Installing both PyTorch and TorchVision with CUDA support is strongly recommended.
+
+```
+git clone git@github.com:facebookresearch/segment-anything.git
+cd segment-anything; pip install -e .
+```
+
+</details>
+
+<details>
+<summary>EfficientSAM</summary> <br/> 
+
+```
+git clone git@github.com:yformer/EfficientSAM.git
+cd EfficientSAM; pip install -e .
+```
+
+</details>
+
+
 ##  Experimental Results
 In this technical report, we use the underwater instance segmentation task as a case study to analyze the performance of SAM2 in underwater scenarios with the UIIS dataset (ICCV'23) and the USIS10K dataset (ICML'24). We observe the following two points:
 

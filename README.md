@@ -83,7 +83,7 @@ In this work, we conduct a preliminary investigation of the performance for SAM2
 In addition, due to the scarcity of underwater video segmentation datasets, this report doesn't evaluate the performance of SAM2 on the underwater video instance segmentation task. However, based on SAM2's excellent performance on underwater 2D instance segmentation, we speculate that SAM2 can be a powerful annotation tool for underwater video instance segmentation dataset and help the development of this field.
 
 ## Citation
-If you find our repo or USIS10K dataset useful for your research, please cite us:
+If you find our repo useful for your research, please cite us:
 ```
 @article{
   lian2024evaluationsegmentmodel2,

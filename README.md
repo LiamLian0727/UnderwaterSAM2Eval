@@ -100,7 +100,7 @@ In addition, if you find the [UIIS](https://github.com/LiamLian0727/WaterMask) d
 @InProceedings{
   lian2023waterMask,
   title     = {WaterMask: Instance Segmentation for Underwater Imagery},
-  author    = {Lian, Shijie and Li, Hua and Cong, Runmin and Li, Suqi and Zhang, Wei and Kwong, Sam},
+  author    = {Shijie Lian and Hua Li and Runmin Cong and Suqi Li and Wei Zhang and Sam Kwong},
   booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
   year      = {2023},
   pages     = {1305-1315}

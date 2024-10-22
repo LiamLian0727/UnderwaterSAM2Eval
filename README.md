@@ -115,3 +115,6 @@ In addition, if you find the [UIIS](https://github.com/LiamLian0727/WaterMask) d
   URL       = {https://openreview.net/forum?id=snhurpZt63}
 }
 ```
+
+## ⭐ Stargazers
+[![Stargazers repo roster for @LiamLian0727/UnderwaterSAM2Eval](https://reporoster.com/stars/LiamLian0727/UnderwaterSAM2Eval)](https://github.com/LiamLian0727/UnderwaterSAM2Eval/stargazers)
